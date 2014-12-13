@@ -67,7 +67,7 @@ sub new {
   $self->{VhVkHMM}      = "$rootdir/db/Vh-linker-Vk.hmm";
   #$self->{VhVkHMM}      = "/tools/vdjfasta/db/Vh-linker-Vk.hmm";
  
-  $self->{blast}        = "/home/ncbi-blast-2.2.25+/bin/blastn";
+  $self->{blast}        = "/home/ncbi-blast-2.2.25/bin/blastn";
   $self->{hmmsearch}    = "/home/hmmer-3.0/src/hmmsearch";
   $self->{hmmalign}     = "/home/hmmer-3.0/src/hmmalign";
 
